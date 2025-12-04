@@ -1,0 +1,28 @@
+1. O que é um vetor em C++?
+
+É uma estrutura que guarda vários valores do mesmo tipo, organizados em sequência.
+Tipo uma fila de caixinhas, cada uma com um número 
+
+2. Diferença entre declarar com tamanho e inicializar com valores
+
+Declarar com tamanho fixo
+Você só vau criar 5 espaços vazios nada dentro ainda.
+ 
+Int r [5]
+
+Inicializar com valores
+int r [5] = {1, 2, 3, 4, 5};
+Já cria determinando os valores 
+
+3.
+O que é o índice?
+Ele funciona como o "endereço" da caixinha onde o valor está guardado.
+
+O vetor tem 10 posições, mas em C++ a
+contagem sempre começa em 0.
+Então, os índices vão de:
+0 até 9
+
+0 é o primeiro elemento
+
+9 é o décimo elemento
